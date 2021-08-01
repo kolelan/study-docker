@@ -22,3 +22,8 @@ docker images
 docer run -d --name app -p 8080:80 site-apache
 ```
 ![Контейнер запущен](docker-run.png)
+
+Осталось только остановить контейнер
+```shell
+docker stop app && docker rm app
+```
